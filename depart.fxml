@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="373.0" prefWidth="658.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="389.0" fitWidth="707.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-16.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-49.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@fond%20d'_cran%20noir%20avec%20motifs.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="317.0" fitWidth="367.0" layoutX="197.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images.jfif" />
+         </image>
+      </ImageView>
+      <Button layoutX="197.0" layoutY="41.0" mnemonicParsing="false" onAction="#depart" opacity="0.0" prefHeight="317.0" prefWidth="318.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>
