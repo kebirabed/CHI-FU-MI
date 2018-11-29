@@ -35,7 +35,7 @@ public class Controller {
 
 
     public void takePhoto(MouseEvent event) {
-
+            
     }
 
     public void ButtonAction(ActionEvent a) {
